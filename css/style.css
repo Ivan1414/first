@@ -4,36 +4,43 @@
 
 body{
 	font-family: Arial;
+	background-color: #f3f6f9;
 }
 
 .profile {
-    width: 100%;	
+	background-color: #ffffff;
+    width: 360px;
+    height: 505px;	
 	padding-top: 60px;
 	padding-bottom: 60px;
 	padding-left: 40px;
 	padding-right: 40px;
-	margin-right: 20px;
+	margin-left: 130px;
+	margin-bottom: 112px;
     text-align: center ;
+	position: left;
+	box-shadow: 1px 1px 1px 1px #dbdee1; 
+	border-radius: 2px;
 }
 
 .image {
-border-radius: 50%
-width: 160px;
-height: 160px;
+border-radius: 50%;
 display: block;
 margin-right: auto;
 margin-left: auto;
 }
 
 .name {
-font-size: 18px
+font-size: 18px;
 color: #33363b;
 }
 
 .profession {
-
+font-size: 14px;
+color: #24c5a1;
 }
 
 .description {
-	
+font-size: 14px;
+color: #a6abb6
 }
